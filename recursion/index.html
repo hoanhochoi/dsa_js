@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function reverseString(s){
+            if(s === "") return "";
+            return s[s.length -1] + reverseString(s.substring(0,s.length-1))
+        }
+        console.log(reverseString("hello bọn mình là thần tiên"))
+
+    </script>
+</body>
+</html>
